@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocos", "Geocos.csproj", "{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "..\..\..\main\common\Util\Util.csproj", "{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagSoup", "..\..\..\main\common\TagSoup\TagSoup.csproj", "{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
