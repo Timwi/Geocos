@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,11 +9,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Geocos</RootNamespace>
     <AssemblyName>Geocos</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OutputPath>..\..\..\builds\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>..\..\..\builds\$(Configuration)\obj-$(AssemblyName)\</IntermediateOutputPath>
     <BaseIntermediateOutputPath>..\..\..\builds\$(Configuration)\obj-$(AssemblyName)\</BaseIntermediateOutputPath>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -82,14 +83,17 @@
     <Compile Include="LineSegmentAngleConstraint.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\main\common\TagSoup\TagSoup.csproj">
+    <ProjectReference Include="..\RT.TagSoup\Src\RT.TagSoup.csproj">
       <Project>{8f80d916-8999-45d8-acb2-ffa7e2698fd6}</Project>
-      <Name>TagSoup</Name>
+      <Name>RT.TagSoup</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\main\common\Util\Util.csproj">
-      <Project>{8d0fe79c-ad8d-475c-9e6f-9cae85365b5d}</Project>
-      <Name>Util</Name>
+    <ProjectReference Include="..\RT.Util\RT.Util.Core\RT.Util.Core.csproj">
+      <Project>{2a497a6f-d89e-4da0-a204-9e537378a72e}</Project>
+      <Name>RT.Util.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocos", "Geocos.csproj", "{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "..\..\..\main\common\Util\Util.csproj", "{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Util.Core", "..\RT.Util\RT.Util.Core\RT.Util.Core.csproj", "{2A497A6F-D89E-4DA0-A204-9E537378A72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagSoup", "..\..\..\main\common\TagSoup\TagSoup.csproj", "{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RT.TagSoup", "..\RT.TagSoup\Src\RT.TagSoup.csproj", "{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,10 @@ Global
 		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A4F879-94E9-4512-ADB0-A1F44DF287ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D0FE79C-AD8D-475C-9E6F-9CAE85365B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A497A6F-D89E-4DA0-A204-9E537378A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A497A6F-D89E-4DA0-A204-9E537378A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A497A6F-D89E-4DA0-A204-9E537378A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A497A6F-D89E-4DA0-A204-9E537378A72E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -28,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EF090FE-F652-447B-BDFE-FD0580918726}
 	EndGlobalSection
 EndGlobal
